@@ -4,8 +4,8 @@ class CoordinatesButton extends Component {
         super(props)
     }
     handleClick =(e) => {
-       let array= [e.clientX,e.clientY];
-       this.props.onReceiveCoordinates(array)
+       let arr= [e.clientX,e.clientY];
+       this.props.onReceiveCoordinates(arr)
     }
     render(){
         return(
