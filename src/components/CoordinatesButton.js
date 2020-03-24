@@ -1,7 +1,7 @@
 import React , {Component} from 'react'
 class CoordinatesButton extends Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
     }
     handleClick =(event) => {
        let array= [event.clientX,event.clientY];
